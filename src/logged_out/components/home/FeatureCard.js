@@ -53,6 +53,7 @@ function FeatureCard(props) {
       <img
         // We will set color and fill here, due to some prios complications
         className={classes.iconWrapper}
+        alt={headline}
         src={Icon}
         style={{
           color: color,

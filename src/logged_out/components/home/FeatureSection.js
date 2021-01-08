@@ -1,17 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Grid, Typography, isWidthUp, withWidth } from "@material-ui/core";
-import CodeIcon from "@material-ui/icons/Code";
-import BuildIcon from "@material-ui/icons/Build";
 import ComputerIcon from "@material-ui/icons/Computer";
-import BarChartIcon from "@material-ui/icons/BarChart";
-import HeadsetMicIcon from "@material-ui/icons/HeadsetMic";
-import CalendarTodayIcon from "@material-ui/icons/CalendarToday";
-import CloudIcon from "@material-ui/icons/Cloud";
 import MeassageIcon from "@material-ui/icons/Message";
-import CancelIcon from "@material-ui/icons/Cancel";
 import calculateSpacing from "./calculateSpacing";
 import FeatureCard from "./FeatureCard";
+//import BuildIcon from "@material-ui/icons/Build";
+//import CodeIcon from "@material-ui/icons/Code";
+//import BarChartIcon from "@material-ui/icons/BarChart";
+//import HeadsetMicIcon from "@material-ui/icons/HeadsetMic";
+//import CalendarTodayIcon from "@material-ui/icons/CalendarToday";
+//import CloudIcon from "@material-ui/icons/Cloud";
+//import CancelIcon from "@material-ui/icons/Cancel";
 //images
 import quesito from "../../../assets/quesitoOaxaca.jpg";
 import huevos from "../../../assets/huevosDeRancho.jpg";
