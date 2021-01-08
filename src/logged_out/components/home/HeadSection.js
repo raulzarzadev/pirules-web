@@ -14,6 +14,7 @@ import {
 } from "@material-ui/core";
 import WaveBorder from "../../../shared/components/WaveBorder";
 import ZoomImage from "../../../shared/components/ZoomImage";
+import { Link } from "react-router-dom";
 
 const styles = (theme) => ({
   extraLargeButtonLabel: {
@@ -123,8 +124,7 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          Free Template for building an SaaS app using
-                          Material-UI
+                          Cremeria Pirules 
                         </Typography>
                       </Box>
                       <div>
@@ -133,8 +133,7 @@ function HeadSection(props) {
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             color="textSecondary"
                           >
-                            Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt
+                            ¿Qué buscas? Nosotros lo tenemos en la puerta de tu hogar. 
                           </Typography>
                         </Box>
                         <Button
@@ -143,9 +142,10 @@ function HeadSection(props) {
                           fullWidth
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          href="https://github.com/dunky11/react-saas-template"
+                          component={Link}
+                          to='/blog'
                         >
-                          Download from GitHub
+                          Visitanos...
                         </Button>
                       </div>
                     </Box>
